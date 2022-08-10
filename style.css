@@ -21,7 +21,11 @@ body {
   line-height: 1.6;
   color: var(--primary-color);
   font-size: 1.1rem;
-  position: fixed;
+        
+  margin:0; /* remove default margin */
+  padding:0; /* remove default padding */
+  width:100%; /* take full browser width */
+  height:100%; /* take full browser height*/
 }
 
 h1,
